@@ -9,5 +9,24 @@ Instructions:
 4. Each type will need its own ostrea << operator overload.
 5. Member function requirements
 
-    a. full
-    b. empty
+        a. Full - returns true if the Stack is full, false otherwise. 
+    
+        b. Empty - return true if the Stack is empty, false otherwise
+        
+        c. Top - returns the top element but does not remove it from the Stack.
+        
+        d. Push - puts an element on the Stack, Issues an error message if you try to Push an
+        element on a full stack. 
+        
+        e. Pop - prints the top element from the Stack and removes it
+        
+        f. Size - Returns the Size of the Stack (what was allocated ). 
+        
+        g. << - ostream overload, has the same effect as Pop but the error message is returned
+        instead of the top element. Returns an error message if the Stack is empty. 
+        
+        h. The default constructor allocated 100 elements
+        
+        i. The constructor with one parameter allocates the number of elements indicated by the
+        integer passed in. If the integer is less than zero, the default value is used. 
+
